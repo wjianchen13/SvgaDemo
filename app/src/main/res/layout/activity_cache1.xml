@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Svga 动画demo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="下载svga文件"
+        android:onClick="onTest1" />
+
+    <com.opensource.svgaplayer.SVGAImageView
+        android:id="@+id/svga_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        app:antiAlias="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="播放Svga动画1"
+        android:onClick="onTest2" />
+
+    <com.opensource.svgaplayer.SVGAImageView
+        android:id="@+id/svga_test2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        app:antiAlias="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="播放Svga动画2"
+        android:onClick="onTest3" />
+
+    <com.opensource.svgaplayer.SVGAImageView
+        android:id="@+id/svga_test3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        app:antiAlias="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="播放Svga动画3"
+        android:onClick="onTest4" />
+
+</LinearLayout>
