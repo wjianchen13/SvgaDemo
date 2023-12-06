@@ -29,6 +29,15 @@
         <activity android:name=".cache.CacheActivity1" />
         <activity android:name=".cache.CacheActivity2" />
         <activity android:name=".cache.CacheActivity3" />
+        <activity android:name=".webp.WebpActivity" />
+        <activity android:name=".webp.WebpActivity1" />
+        <activity android:name=".webp.WebpActivity2" />
+        <activity android:name=".webp.WebpActivity3" />
+        <activity android:name=".glide.GlideActivity" />
+        <activity android:name=".glide.GlideActivity1" />
+        <activity android:name=".compose.ComposeActivity" />
+        <activity android:name=".compose.ComposeActivity1" />
+        <activity android:name=".compose.ComposeActivity2" />
 
     </application>
 

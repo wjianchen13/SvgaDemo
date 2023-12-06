@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Svga 动画demo" />
+        android:text="glide 加载图片" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Svga 动画"
+        android:text="加载图片测试"
         android:onClick="onTest1" />
 
     <Button
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Svga 动画缓存"
+        android:text="多个测试"
         android:onClick="onTest2" />
 
     <Button
@@ -35,23 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Webp 动画"
+        android:text="列表"
         android:onClick="onTest3" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="Glide加载图片"
-        android:onClick="onTest4" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="Svga webp 动画组合测试"
-        android:onClick="onTest5" />
 
 </LinearLayout>

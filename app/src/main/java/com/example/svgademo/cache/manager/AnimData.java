@@ -8,6 +8,16 @@ public class AnimData {
     private String vggUrl;
     private String mUrl;
     private String key;
+    private int type; //  1 SVGA 2 Webp
+
+    public AnimData() {
+
+    }
+
+    public AnimData(int type, String url) {
+        this.type = type;
+        this.mUrl = url;
+    }
 
     public AnimData(String url) {
         this.vggUrl = url;
@@ -38,5 +48,13 @@ public class AnimData {
 
     public void setKey(String key) {
         this.key = key;
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
     }
 }

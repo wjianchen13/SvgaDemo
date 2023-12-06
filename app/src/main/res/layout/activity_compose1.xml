@@ -19,15 +19,24 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Svga 动画"
+        android:text="下载svga文件"
         android:onClick="onTest1" />
+
+    <com.opensource.svgaplayer.SVGAImageView
+        android:id="@+id/svga_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        app:antiAlias="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Svga 动画缓存"
+        android:text="播放Svga动画1"
         android:onClick="onTest2" />
 
     <Button
@@ -35,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Webp 动画"
+        android:text="清理Svga播放状态"
         android:onClick="onTest3" />
 
     <Button
@@ -43,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Glide加载图片"
+        android:text="播放Webp动画"
         android:onClick="onTest4" />
 
     <Button
@@ -51,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="Svga webp 动画组合测试"
+        android:text="清理Webp播放状态"
         android:onClick="onTest5" />
 
 </LinearLayout>

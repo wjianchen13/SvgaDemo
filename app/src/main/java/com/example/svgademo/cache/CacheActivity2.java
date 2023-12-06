@@ -54,10 +54,10 @@ public class CacheActivity2 extends AppCompatActivity {
      */
     public void onTest1(View v) {
         SvgaAnimManager.getInstance().loadAmin(mUrl, svgaTest);
-//        SvgaAnimManager.getInstance().loadAmin(mUrl2, svgaTest2);
-//        SvgaAnimManager.getInstance().loadAmin(mUrl3, svgaTest3);
-//        SvgaAnimManager.getInstance().loadAmin(mUrl4, svgaTest4);
-//        SvgaAnimManager.getInstance().loadAmin(mUrl5, svgaTest5);
+        SvgaAnimManager.getInstance().loadAmin(mUrl2, svgaTest2);
+        SvgaAnimManager.getInstance().loadAmin(mUrl3, svgaTest3);
+        SvgaAnimManager.getInstance().loadAmin(mUrl4, svgaTest4);
+        SvgaAnimManager.getInstance().loadAmin(mUrl5, svgaTest5);
     }
 
 
