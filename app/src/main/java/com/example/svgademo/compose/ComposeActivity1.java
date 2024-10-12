@@ -212,7 +212,7 @@ public class ComposeActivity1 extends AppCompatActivity implements FileDownLoadM
 
                     @Override
                     public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
-                        return true;
+                        return false;
                     }
                 })
                 .into(svgaTest);
